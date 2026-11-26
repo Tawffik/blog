@@ -37,7 +37,6 @@ def head(title, desc, base):
 
 def foot(base):
     return '''<footer><div class="in">Zero Track Sec · understand before you break · Every claim ties to a checkable record. ·
-<a href="https://tawffik.github.io/web-api-pentest-portfolio/platform/" target="_blank" rel="noopener">Nx01 Platform ↗</a> ·
 <a href="https://github.com/Tawffik" target="_blank" rel="noopener">GitHub: Tawffik ↗</a></div></footer>
 <script src="''' + base + '''static/nav.js?v=1"></script>
 </body>

@@ -4,7 +4,6 @@
   const base = nav.dataset.base || "";
   const items = [
     ["index.html", "Posts", true],
-    ["https://tawffik.github.io/web-api-pentest-portfolio/platform/", "Nx01 Platform ↗", false],
     ["https://github.com/Tawffik/blog", "Source ↗", false],
   ];
   nav.innerHTML =

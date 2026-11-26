@@ -213,4 +213,4 @@ What exists today is a **private reproduction bundle**, not a public repro: the 
 
 ---
 
-*Live context: this research feeds the [Nx01 Platform](https://tawffik.github.io/web-api-pentest-portfolio/platform/) — the lab's public face with 20 projects, the sourced vault, and the append-only ledger. Portfolio home: [web-api-pentest-portfolio](https://github.com/Tawffik/web-api-pentest-portfolio).*
+*Source record: the full research writeup and its evidence files live in the [web-api-pentest-portfolio](https://github.com/Tawffik/web-api-pentest-portfolio) repository on GitHub.*
