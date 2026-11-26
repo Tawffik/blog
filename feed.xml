@@ -5,6 +5,13 @@
     <link>https://tawffik.github.io/blog/</link>
     <description>Original security research and engineering notes from Zero Track Lab. Verified work only.</description>
     <item>
+      <title>Tests that pass when the server says no: a zero-budget contract CI for a knowledge platform that must refuse unsourced claims</title>
+      <link>https://tawffik.github.io/blog/posts/zero-budget-contract-ci-negative-tests.html</link>
+      <guid>https://tawffik.github.io/blog/posts/zero-budget-contract-ci-negative-tests.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Most test suites answer one question: does the happy path work. This article is about the opposite question, and why it matters more for a security knowledge platform: does the system actually refuse what it promises to refuse, on every</description>
+    </item>
+    <item>
       <title>Testing an open-source AI bug-hunter&#x27;s report integrity: what its gate catches, what it misses, and what my fork changes</title>
       <link>https://tawffik.github.io/blog/posts/gating-ai-security-agents-report-integrity.html</link>
       <guid>https://tawffik.github.io/blog/posts/gating-ai-security-agents-report-integrity.html</guid>
