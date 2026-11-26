@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Zero Track Blog</title>
+    <link>https://tawffik.github.io/blog/</link>
+    <description>Original security research and engineering notes from Zero Track Lab. Verified work only.</description>
+    <item>
+      <title>Testing an open-source AI bug-hunter&#x27;s report integrity: what its gate catches, what it misses, and what my fork changes</title>
+      <link>https://tawffik.github.io/blog/posts/gating-ai-security-agents-report-integrity.html</link>
+      <guid>https://tawffik.github.io/blog/posts/gating-ai-security-agents-report-integrity.html</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+      <description>AI security agents can now write bug-bounty reports. The obvious question nobody likes to ask: how do you stop the agent from writing a report about a vulnerability it never actually verified? This article looks at one concrete answer, in</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+// Zero Track Blog — standalone nav (no data dependency).
+(function () {
+  const nav = document.getElementById("nav");
+  const base = nav.dataset.base || "";
+  const items = [
+    ["index.html", "Posts", true],
+    ["https://tawffik.github.io/web-api-pentest-portfolio/platform/", "Nx01 Platform ↗", false],
+    ["https://github.com/Tawffik/blog", "Source ↗", false],
+  ];
+  nav.innerHTML =
+    `<span class="logo">ZeroTrack<b>_</b><span class="sub-mark">BLOG</span></span>` +
+    items.map(([href, lbl, rel]) =>
+      `<a class="item" href="${rel ? base + href : href}">${lbl}</a>`
+    ).join("") +
+    `<a class="cta" href="https://tawffik.github.io/blog/feed.xml">RSS</a>`;
+})();
