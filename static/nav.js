@@ -4,12 +4,10 @@
   const base = nav.dataset.base || "";
   const items = [
     ["index.html", "Posts", true],
-    ["https://github.com/Tawffik/blog", "Source ↗", false],
   ];
   nav.innerHTML =
     `<span class="logo">ZeroTrack<b>_</b><span class="sub-mark">BLOG</span></span>` +
     items.map(([href, lbl, rel]) =>
       `<a class="item" href="${rel ? base + href : href}">${lbl}</a>`
-    ).join("") +
-    `<a class="cta" href="https://tawffik.github.io/blog/feed.xml">RSS</a>`;
+    ).join("");
 })();
